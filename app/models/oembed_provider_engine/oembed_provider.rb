@@ -51,7 +51,14 @@ module OembedProviderEngine
          :author_url,
          :thumbnail_url,
          :thumbnail_width,
-         :thumbnail_height]
+         :thumbnail_height,
+         :url,
+         :product_id,
+         :price,
+         :currency,
+         :availability,
+         :images,
+         :related_items]
       end
 
       # these may be required depending on type
