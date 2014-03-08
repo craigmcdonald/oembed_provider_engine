@@ -48,6 +48,7 @@ module OembedProviderEngine
       def optional_attributes
         [:title,
          :author_name,
+         :description,
          :author_url,
          :thumbnail_url,
          :thumbnail_width,
