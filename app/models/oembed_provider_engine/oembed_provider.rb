@@ -96,7 +96,7 @@ module OembedProviderEngine
         # otherwise we use convention over configuration to determine model
         model = controller.singularize.camelize unless model
 
-        model.constantize.find(id)
+        model.constantize.find_by_slug(id)
       end
     end
   end
